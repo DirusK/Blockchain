@@ -1,0 +1,6 @@
+http-server:
+  listen-address: 0.0.0.0:5000
+  read-timeout: 60
+  write-timeout: 60
+  header-limit: 10128
+  graceful-timeout: 60
