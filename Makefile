@@ -24,11 +24,11 @@ build: test
 
 .PHONY: run
 run:
-	cd cmd; go run .
+	cd cmd && go run .
 
 .PHONY: run-build
 run-build: build
-	cd cmd; ./$(BUILD_NAME)
+	cd cmd && ./$(BUILD_NAME)
 
 .PHONY: clean
 clean:
