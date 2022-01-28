@@ -1,14 +1,15 @@
 package main
 
 import (
-	"blockchain/internal/app"
-	"blockchain/internal/config"
 	"context"
 	"flag"
 	"log"
 	"os"
 	"os/signal"
 	"syscall"
+
+	"blockchain/internal/app"
+	"blockchain/internal/config"
 
 	"github.com/google/uuid"
 )
